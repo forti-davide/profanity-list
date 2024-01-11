@@ -29,7 +29,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git conifg --global user.email "action-bot@github.com"
+          git config --global user.email "action-bot@github.com"
           git config --global user.name "GitHub Action"
           git add full_list.txt
           git commit -m "Updated full_list.txt"
